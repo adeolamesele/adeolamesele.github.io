@@ -3,49 +3,501 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adeola Mesele | Analyst</title>
+
+  <title>Adeola Mesele | Research, Data & QAT Analyst</title>
+
+  <meta name="description" content="Personal portfolio of Adeola Mesele, Research Analyst, Data Analyst and Quality Assurance & Testing Analyst.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f5f0;
+      color: #1f1f1f;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    nav {
+      padding: 26px 0;
+      border-bottom: 1px solid #ddd8cf;
+    }
+
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #1f1f1f;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #4b4b4b;
+      font-size: 15px;
+    }
+
+    .nav-links a:hover {
+      color: #000;
+    }
+
+    .hero {
+      padding: 110px 0 100px;
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      margin-bottom: 20px;
+      color: #68645d;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: clamp(50px, 9vw, 88px);
+      line-height: 1;
+      margin-bottom: 28px;
+      letter-spacing: -3px;
+    }
+
+    .role {
+      font-size: clamp(20px, 3vw, 29px);
+      line-height: 1.4;
+      margin-bottom: 28px;
+      max-width: 800px;
+      font-weight: 500;
+    }
+
+    .intro {
+      font-size: 19px;
+      max-width: 700px;
+      color: #55514b;
+      margin-bottom: 38px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .button-primary {
+      background: #222;
+      color: white;
+    }
+
+    .button-secondary {
+      border: 1px solid #b9b4aa;
+      color: #222;
+    }
+
+    section {
+      padding: 90px 0;
+      border-top: 1px solid #ddd8cf;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      color: #68645d;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.15;
+      margin-bottom: 30px;
+      letter-spacing: -1px;
+    }
+
+    .about-text {
+      max-width: 780px;
+      font-size: 18px;
+      color: #4d4943;
+    }
+
+    .about-text p {
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border: 1px solid #e1ddd4;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #5a5650;
+      font-size: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 35px;
+    }
+
+    .skill {
+      background: #ece8df;
+      padding: 10px 15px;
+      border-radius: 30px;
+      font-size: 14px;
+    }
+
+    .experience-item {
+      padding: 28px 0;
+      border-bottom: 1px solid #ddd8cf;
+    }
+
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+
+    .experience-item h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .experience-item p {
+      max-width: 760px;
+      color: #55514b;
+    }
+
+    .contact-box {
+      max-width: 720px;
+    }
+
+    .contact-box p {
+      font-size: 18px;
+      color: #55514b;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      padding: 35px 0;
+      border-top: 1px solid #ddd8cf;
+      color: #706c65;
+      font-size: 14px;
+    }
+
+    @media (max-width: 750px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding: 80px 0 70px;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 65px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>Adeola Mesele</h1>
+  <nav>
+    <div class="container nav-content">
 
-  <h2>Research Analyst | Quality Assurance & Testing Analyst</h2>
+      <a href="#" class="logo">Adeola Mesele</a>
 
-  <p>
-    I use data, research and structured testing to understand problems,
-    evaluate evidence and improve systems and processes.
-  </p>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-  <h3>About Me</h3>
+    </div>
+  </nav>
 
-  <p>
-    I am an analyst with experience across research, data analysis,
-    quality assurance and testing. My work focuses on understanding
-    complex problems, working with evidence and identifying practical
-    improvements.
-  </p>
 
-  <h3>Areas of Focus</h3>
+  <main>
 
-  <ul>
-    <li>Data analysis</li>
-    <li>Quality assurance and testing</li>
-    <li>Research and evidence analysis</li>
-    <li>Process improvement</li>
-    <li>Stakeholder communication</li>
-  </ul>
+    <div class="container">
 
-  <h3>Experience</h3>
+      <header class="hero">
 
-  <p>
-    My experience spans data, research, healthcare and public service,
-    with a growing focus on analytical and quality assurance work.
-  </p>
+        <p class="eyebrow">Analyst Portfolio</p>
 
-  <h3>Contact</h3>
+        <h1>Adeola Mesele</h1>
 
-  <p>LinkedIn and contact details coming soon.</p>
+        <p class="role">
+          Research Analyst | Data Analyst | Quality Assurance & Testing Analyst
+        </p>
+
+        <p class="intro">
+          I work across research, data analysis and quality assurance,
+          using evidence and structured testing to understand problems,
+          identify issues and support better decisions.
+        </p>
+
+        <div class="buttons">
+
+          <a href="#about" class="button button-primary">
+            About Me
+          </a>
+
+          <a href="#contact" class="button button-secondary">
+            Contact
+          </a>
+
+        </div>
+
+      </header>
+
+    </div>
+
+
+    <section id="about">
+
+      <div class="container">
+
+        <p class="section-label">About</p>
+
+        <h2>Analysis grounded in evidence.</h2>
+
+        <div class="about-text">
+
+          <p>
+            I am an analyst with experience across research, data,
+            quality assurance, healthcare and public service.
+          </p>
+
+          <p>
+            My work involves making sense of information, investigating
+            problems, testing systems and processes, and communicating
+            findings clearly to technical and non-technical audiences.
+          </p>
+
+          <p>
+            I hold an MSc in Biomedical Science specialising in Medical
+            Immunology, where I developed a strong foundation in research,
+            evidence evaluation and quantitative analysis. I now apply those
+            analytical skills across data and quality assurance work.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="expertise">
+
+      <div class="container">
+
+        <p class="section-label">What I Do</p>
+
+        <h2>Three areas. One analytical approach.</h2>
+
+        <div class="grid">
+
+          <div class="card">
+            <h3>Research Analysis</h3>
+            <p>
+              Reviewing evidence, gathering information, identifying patterns
+              and turning research findings into clear, useful conclusions.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Data Analysis</h3>
+            <p>
+              Working with data to investigate questions, identify trends,
+              validate information and support evidence-based decisions.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Quality Assurance & Testing</h3>
+            <p>
+              Designing and carrying out structured tests, investigating
+              unexpected results and providing evidence on whether systems
+              and processes work as intended.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="skills">
+
+          <span class="skill">Data Analysis</span>
+          <span class="skill">Quality Assurance</span>
+          <span class="skill">Software Testing</span>
+          <span class="skill">Research</span>
+          <span class="skill">SQL</span>
+          <span class="skill">BigQuery</span>
+          <span class="skill">Excel</span>
+          <span class="skill">Evidence Analysis</span>
+          <span class="skill">Defect Investigation</span>
+          <span class="skill">Stakeholder Communication</span>
+          <span class="skill">Process Improvement</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="experience">
+
+      <div class="container">
+
+        <p class="section-label">Experience</p>
+
+        <h2>A career built around understanding problems.</h2>
+
+
+        <div class="experience-item">
+
+          <h3>Data & Quality Assurance</h3>
+
+          <p>
+            Working with statistical and data processing systems,
+            carrying out structured testing, investigating results,
+            documenting evidence and supporting the identification and
+            resolution of defects.
+          </p>
+
+        </div>
+
+
+        <div class="experience-item">
+
+          <h3>Research</h3>
+
+          <p>
+            Experience gathering and evaluating evidence, conducting
+            structured research, analysing information and presenting
+            findings to support decisions and service improvement.
+          </p>
+
+        </div>
+
+
+        <div class="experience-item">
+
+          <h3>Public Service & Operations</h3>
+
+          <p>
+            Experience using data and evidence to understand customer and
+            operational problems, identify barriers and contribute to
+            practical improvements.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="contact">
+
+      <div class="container contact-box">
+
+        <p class="section-label">Contact</p>
+
+        <h2>Let's connect.</h2>
+
+        <p>
+          I am interested in research, data and quality assurance work
+          where analysis can help organisations understand problems and
+          make better decisions.
+        </p>
+
+        <div class="buttons">
+
+          <a href="#" class="button button-primary">
+            LinkedIn
+          </a>
+
+          <a href="mailto:YOUR-EMAIL-HERE" class="button button-secondary">
+            Email Me
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container">
+      © 2026 Adeola Mesele
+    </div>
+
+  </footer>
 
 </body>
 </html>
